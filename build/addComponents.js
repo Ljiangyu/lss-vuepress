@@ -3,7 +3,7 @@
 import * as fs from 'fs';
 // 或者如果你只需要某些特定的方法，可以这样做：
 // import { readFileSync, writeFileSync } from 'fs';
-import findMarkdown from './findMarkdown.js';
+import { findMarkdown } from './findMarkdown.js';
 const rootDir = "./docs";
 
 findMarkdown(rootDir, writeComponents);
