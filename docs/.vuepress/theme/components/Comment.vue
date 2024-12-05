@@ -23,7 +23,7 @@ export default {
         clientID: "Ov23liYy1vua62tDJiwi",
         clientSecret: "49037610b80ef12b2e73b246b3b98e89e2802b36",
         repo: "https://github.com/Ljiangyu/lss-vuepress.git",
-        owner: "lssblog",
+        owner: "Ljiangyu",
         // 这里接受一个数组，可以添加多个管理员，可以是你自己
         admin: ["Ljiangyu"],
         // id 用于当前页面的唯一标识，一般来讲 pathname 足够了，
