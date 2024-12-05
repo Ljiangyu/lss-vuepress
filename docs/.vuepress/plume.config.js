@@ -6,26 +6,26 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
-  // your git repo url
-  docsRepo: '',
-  docsDir: 'docs',
+    logo: 'https://theme-plume.vuejs.press/plume.png',
+    // your git repo url
+    docsRepo: '',
+    docsDir: 'docs',
 
-  appearance: true,
+    appearance: true,
 
-  profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'My Vuepress Site',
-    description: 'blog',
-    // circle: true,
-    // location: '',
-    // organization: '',
-  },
+    profile: {
+        avatar: 'https://theme-plume.vuejs.press/plume.png',
+        name: 'My Vuepress Site',
+        description: 'blog',
+        // circle: true,
+        // location: '',
+        // organization: '',
+    },
 
-  navbar,
-  notes,
-  social: [
-    { icon: 'github', link: '/' },
-  ],
+    navbar,
+    notes,
+    social: [
+        { icon: 'github', link: 'https://github.com/Ljiangyu/lss-vuepress' },
+    ],
 
 })

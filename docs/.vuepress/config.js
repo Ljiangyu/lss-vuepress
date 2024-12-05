@@ -3,6 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
+    // gitpages 访问地址配置
     base: '/lss-vuepress/',
     lang: 'zh-CN',
     title: 'My Vuepress Site',
