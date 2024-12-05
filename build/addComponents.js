@@ -1,5 +1,5 @@
 // addComponents.js
-// "docs:build": "vuepress build docs --clean-cache --clean-temp",
+// "docs:build": "vuepress build docs --clean-cache --clean-temp", .
 import * as fs from 'fs';
 // 或者如果你只需要某些特定的方法，可以这样做：
 // import { readFileSync, writeFileSync } from 'fs';
