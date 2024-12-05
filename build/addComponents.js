@@ -1,4 +1,5 @@
 // addComponents.js
+// "docs:build": "vuepress build docs --clean-cache --clean-temp",
 const fs = require("fs");
 const findMarkdown = require("./findMarkdown");
 const rootDir = "./docs";
