@@ -1,6 +1,8 @@
 // addComponents.js
 // "docs:build": "vuepress build docs --clean-cache --clean-temp",
-const fs = require("fs");
+import * as fs from 'fs';
+// 或者如果你只需要某些特定的方法，可以这样做：
+// import { readFileSync, writeFileSync } from 'fs';
 const findMarkdown = require("./findMarkdown");
 const rootDir = "./docs";
 
