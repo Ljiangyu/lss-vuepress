@@ -1,5 +1,5 @@
 // findMarkdown.js
-const fs = require("fs");
+import * as fs from 'fs';
 
 function findMarkdown(dir, callback) {
     fs.readdir(dir, function (err, files) {

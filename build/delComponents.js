@@ -1,6 +1,6 @@
 // delComponents.js
-const fs = require("fs");
-const findMarkdown = require("./findMarkdown");
+import * as fs from 'fs';
+import findMarkdown from './findMarkdown.js';
 const rootDir = "./docs";
 
 findMarkdown(rootDir, delComponents);
