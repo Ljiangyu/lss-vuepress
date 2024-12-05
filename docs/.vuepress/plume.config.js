@@ -15,11 +15,11 @@ export default defineThemeConfig({
 
     profile: {
         avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: 'My Vuepress Site',
+        name: "lss's blog",
         description: 'blog',
-        // circle: true,
-        // location: '',
-        // organization: '',
+        circle: true,
+        location: '广州',
+        organization: '',
     },
 
     navbar,

@@ -1,6 +1,6 @@
 # my-vuepress-site
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
+> 首先项目启动脚本会自动接管docs，其他目录将会被忽视，请将文档放置在docs目录下
 
 ## Install
 
