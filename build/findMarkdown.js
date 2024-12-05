@@ -20,4 +20,4 @@ export default function findMarkdown(dir, callback) {
         });
     });
 }
-module.exports = findMarkdown;
+// module.exports = findMarkdown;
