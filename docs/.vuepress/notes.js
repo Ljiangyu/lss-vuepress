@@ -24,16 +24,32 @@ const typescript = defineNoteConfig({
 })
 const issues = defineNoteConfig({
     dir: 'issues',
+    // dirName: 'manifest',
     link: '/issues/',
     sidebar: [
         {
-            text: 'issues',
+            text: '首页',
+            prefix: '', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+            items: [''],
+
+        },
+        {
+            text: 'java',
             prefix: '/java/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
             items: [
                 // 可以混用 string 和 SidebarItem
                 { text: 'jni & matlab', link: '/issues/sp69umzl/' },
             ],
+
         },
+        {
+            text: 'git',
+            prefix: '/git/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+            items: [
+                // 可以混用 string 和 SidebarItem
+                { text: 'git & 网络问题', link: '/issues/px3juz5s/' },
+            ]
+        }
     ]
 })
 export const notes = defineNotesConfig({
