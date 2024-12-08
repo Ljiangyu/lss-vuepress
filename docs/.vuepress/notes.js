@@ -22,8 +22,22 @@ const typescript = defineNoteConfig({
         },
     ]
 })
+const issues = defineNoteConfig({
+    dir: 'issues',
+    link: '/issues/',
+    sidebar: [
+        {
+            text: 'issues',
+            prefix: '/java/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+            items: [
+                // 可以混用 string 和 SidebarItem
+                { text: 'jni & matlab', link: '/issues/sp69umzl/' },
+            ],
+        },
+    ]
+})
 export const notes = defineNotesConfig({
     dir: 'notes',
     link: '/',
-    notes: [demoNote, typescript],
+    notes: [demoNote, typescript, issues],
 })
