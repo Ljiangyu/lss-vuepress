@@ -52,8 +52,15 @@ const issues = defineNoteConfig({
         }
     ]
 })
+
+const digitalCircuit = defineNoteConfig({
+    dir: 'digitalCircuit',
+    link: '/digitalCircuit/',
+    sidebar: ['', '数字电路基础']
+})
+
 export const notes = defineNotesConfig({
     dir: 'notes',
     link: '/',
-    notes: [demoNote, typescript, issues],
+    notes: [demoNote, typescript, issues, digitalCircuit],
 })

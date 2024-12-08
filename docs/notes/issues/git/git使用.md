@@ -22,7 +22,7 @@ git config --global --unset https.proxy
 
 第二步：
 查看自己的代理端口。
-![参考图片](/images/image-20241208130403514.png)
+![参考图片](/images/git/image-20241208130403514.png)
 1. win + R 输入 control 打开控制面板
 2. 打开控制面板，找到 Internet 选项
 3. 点击 Internet 选项，找到 局域网设置
