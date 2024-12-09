@@ -22,6 +22,7 @@ const typescript = defineNoteConfig({
         },
     ]
 })
+
 const issues = defineNoteConfig({
     dir: 'issues',
     // dirName: 'manifest',

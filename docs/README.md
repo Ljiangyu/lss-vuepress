@@ -7,8 +7,8 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Lss Theme Plume
-      tagline: VuePress Next Theme
+      name: 热爱生活，热爱自由。
+      tagline: Variety is the spice of life.
       text: 人生如逆旅，我亦是行人。
       actions:
         -

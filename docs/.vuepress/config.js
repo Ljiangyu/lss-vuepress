@@ -6,7 +6,7 @@ export default defineUserConfig({
     // gitpages 访问地址配置
     base: '/lss-vuepress/',
     lang: 'zh-CN',
-    title: 'My Vuepress Site',
+    title: "lss's Site",
     description: 'blog',
 
     bundler: viteBundler(),
@@ -58,11 +58,11 @@ export default defineUserConfig({
              */
             markdownEnhance: {
                 demo: true,
-                //   include: true,
-                //   chart: true,
-                //   echarts: true,
-                //   mermaid: true,
-                //   flowchart: true,
+                include: true,
+                chart: true,
+                echarts: true,
+                mermaid: true,
+                flowchart: true,
             },
 
             /**
@@ -92,14 +92,14 @@ export default defineUserConfig({
              * @see https://theme-plume.vuejs.press/guide/features/comments/
              */
             // comment: {
-            //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-            //   comment: true,
-            //   repo: '',
-            //   repoId: '',
-            //   categoryId: '',
-            //   mapping: 'pathname',
-            //   reactionsEnabled: true,
-            //   inputPosition: 'top',
+            //     provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+            //     comment: true,
+            //     repo: '',
+            //     repoId: '',
+            //     categoryId: '',
+            //     mapping: 'pathname',
+            //     reactionsEnabled: true,
+            //     inputPosition: 'top',
             // },
         },
     }),

@@ -12,6 +12,8 @@ export const navbar = defineNavbarConfig([
             { text: 'java', link: '/notes/java/README.md' },
             { text: 'issues', link: '/notes/issues/README.md' },
             { text: '数字电路', link: '/notes/digitalCircuit/README.md' },
+
         ]
     },
+    { text: '友情链接', link: '/friends/', icon: 'carbon:friendship' },
 ])
