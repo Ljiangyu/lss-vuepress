@@ -36,6 +36,7 @@ const issues = defineNoteConfig({
         },
         {
             text: 'java',
+            icon: 'ep:guide',
             prefix: '/java/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
             items: [
                 // 可以混用 string 和 SidebarItem
@@ -57,7 +58,8 @@ const issues = defineNoteConfig({
 const digitalCircuit = defineNoteConfig({
     dir: 'digitalCircuit',
     link: '/digitalCircuit/',
-    sidebar: ['', '数字电路基础']
+    icon: 'ep:guide',
+    sidebar: ['', '数字电路基础', "计算机组成"]
 })
 
 export const notes = defineNotesConfig({
