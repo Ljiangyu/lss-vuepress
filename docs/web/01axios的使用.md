@@ -3,7 +3,7 @@ title: axios的使用
 createTime: 2024/12/10 23:21:13
 permalink: /article/m0aaehah/
 cover: 
-  url: ../.vuepress/public/images/web/web01.jpg
+  url: ../images/web/web01.jpg
   layout: left
 tags:
   - vue
