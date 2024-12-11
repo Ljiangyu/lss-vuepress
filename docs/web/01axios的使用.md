@@ -10,14 +10,14 @@ tags:
   - axios
   - 前端
 ---
-[[toc]]
+
 
 > Axios 是一个基于 promise 网络请求库，作用于node.js 和浏览器中。 它是 isomorphic 的(即同一套代码可以运行在浏览器和node.js中)。在服务端它使用原生 node.js http 模块, 而在客户端 (浏览端) 则使用 XMLHttpRequests。
 
 <!-- more -->
 
 ## axios的使用
-
+[[toc]]
 使用 npm:
 ::: note
 $ npm install axios
