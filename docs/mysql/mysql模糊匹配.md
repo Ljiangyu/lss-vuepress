@@ -79,12 +79,12 @@ CALL InsertTestData();
 
 ```sql
 SELECT * FROM test_data WHERE random_data LIKE 'Data_01%';
-SELECT * FROM test_data WHERE random_data REGEXP '^Data_00';
+SELECT * FROM test_data WHERE random_data REGEXP '^Data_01%';
 SELECT * FROM test_data WHERE INSTR(random_data, '01') > 0;
 ```
 总结
 ::: tip
-instr 函数效率最高，like 其次，regexp 最慢
+instr 函数效率最高，like、regexp 这俩  没测出来
 :::
 
 
