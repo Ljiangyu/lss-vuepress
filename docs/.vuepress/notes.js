@@ -1,10 +1,10 @@
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
-const demoNote = defineNoteConfig({
-    dir: 'demo',
-    link: '/demo',
-    sidebar: ['', 'foo', 'bar'],
-})
+// const demoNote = defineNoteConfig({
+//     dir: 'demo',
+//     link: '/demo',
+//     sidebar: ['', 'foo', 'bar'],
+// })
 /**
  * 配置 单个 note
  */
@@ -65,5 +65,5 @@ const digitalCircuit = defineNoteConfig({
 export const notes = defineNotesConfig({
     dir: 'notes',
     link: '/',
-    notes: [demoNote, typescript, issues, digitalCircuit],
+    notes: [typescript, issues, digitalCircuit],
 })
