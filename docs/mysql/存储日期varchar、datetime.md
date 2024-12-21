@@ -2,6 +2,9 @@
 title: 存储日期varchar、datetime
 createTime: 2024/12/14 19:13:03
 permalink: /article/luqn835b/
+tags:
+  - mysql
+  - mysql数值类型
 ---
 
 > 使用mysql存储日期时间时，varchar和datetime
